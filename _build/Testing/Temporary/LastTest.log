@@ -1,0 +1,40 @@
+Start testing: Mar 23 16:51 MSK
+----------------------------------------------------------
+1/1 Testing: check
+1/1 Test: check
+Command: "/home/ace/Green-Ace/workspace/TimpLab5/_build/check"
+Directory: /home/ace/Green-Ace/workspace/TimpLab5/_build
+"check" start time: Mar 23 16:51 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/ace/Green-Ace/workspace/TimpLab5/third-party/gtest/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from Account
+[ RUN      ] Account.GetBalance
+[       OK ] Account.GetBalance (0 ms)
+[ RUN      ] Account.ChangeBalance
+[       OK ] Account.ChangeBalance (0 ms)
+[ RUN      ] Account.Lock
+[       OK ] Account.Lock (0 ms)
+[ RUN      ] Account.Unlock
+[       OK ] Account.Unlock (0 ms)
+[----------] 4 tests from Account (0 ms total)
+
+[----------] 1 test from Transaction
+[ RUN      ] Transaction.SaveToDataBase
+[       OK ] Transaction.SaveToDataBase (0 ms)
+[----------] 1 test from Transaction (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check" end time: Mar 23 16:51 MSK
+"check" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 23 16:51 MSK
