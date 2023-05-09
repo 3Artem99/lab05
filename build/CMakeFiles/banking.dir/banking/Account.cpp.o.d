@@ -1,7 +1,7 @@
 CMakeFiles/banking.dir/banking/Account.cpp.o: \
- /home/artem99/3Artem99/workspace/projects/05Dima/lab05/banking/Account.cpp \
+ /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.cpp \
  /usr/include/stdc-predef.h \
- /home/artem99/3Artem99/workspace/projects/05Dima/lab05/banking/Account.h \
+ /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/artem99/3Artem99/workspace/projects/lab05
+# Install script for directory: /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/artem99/3Artem99/workspace/projects/lab05/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

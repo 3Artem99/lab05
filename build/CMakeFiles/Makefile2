@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem99/3Artem99/workspace/projects/lab05
+CMAKE_SOURCE_DIR = /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem99/3Artem99/workspace/projects/lab05/build
+CMAKE_BINARY_DIR = /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/banking.dir/clean
 CMakeFiles/banking.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/banking.dir/build.make CMakeFiles/banking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/banking.dir/build.make CMakeFiles/banking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles --progress-num=1,2,3 "Built target banking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles --progress-num=1,2,3 "Built target banking"
 .PHONY : CMakeFiles/banking.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/banking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/banking.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles 0
 .PHONY : CMakeFiles/banking.dir/rule
 
 # Convenience name for target.

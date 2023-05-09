@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem99/3Artem99/workspace/projects/lab05
+CMAKE_SOURCE_DIR = /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem99/3Artem99/workspace/projects/lab05/build
+CMAKE_BINARY_DIR = /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/banking.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/banking.dir/flags.make
 CMakeFiles/banking.dir/banking/Transaction.cpp.o: CMakeFiles/banking.dir/flags.make
 CMakeFiles/banking.dir/banking/Transaction.cpp.o: ../banking/Transaction.cpp
 CMakeFiles/banking.dir/banking/Transaction.cpp.o: CMakeFiles/banking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/banking.dir/banking/Transaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/banking.dir/banking/Transaction.cpp.o -MF CMakeFiles/banking.dir/banking/Transaction.cpp.o.d -o CMakeFiles/banking.dir/banking/Transaction.cpp.o -c /home/artem99/3Artem99/workspace/projects/lab05/banking/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/banking.dir/banking/Transaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/banking.dir/banking/Transaction.cpp.o -MF CMakeFiles/banking.dir/banking/Transaction.cpp.o.d -o CMakeFiles/banking.dir/banking/Transaction.cpp.o -c /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.cpp
 
 CMakeFiles/banking.dir/banking/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/banking.dir/banking/Transaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem99/3Artem99/workspace/projects/lab05/banking/Transaction.cpp > CMakeFiles/banking.dir/banking/Transaction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.cpp > CMakeFiles/banking.dir/banking/Transaction.cpp.i
 
 CMakeFiles/banking.dir/banking/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/banking.dir/banking/Transaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem99/3Artem99/workspace/projects/lab05/banking/Transaction.cpp -o CMakeFiles/banking.dir/banking/Transaction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.cpp -o CMakeFiles/banking.dir/banking/Transaction.cpp.s
 
 CMakeFiles/banking.dir/banking/Account.cpp.o: CMakeFiles/banking.dir/flags.make
 CMakeFiles/banking.dir/banking/Account.cpp.o: ../banking/Account.cpp
 CMakeFiles/banking.dir/banking/Account.cpp.o: CMakeFiles/banking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/banking.dir/banking/Account.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/banking.dir/banking/Account.cpp.o -MF CMakeFiles/banking.dir/banking/Account.cpp.o.d -o CMakeFiles/banking.dir/banking/Account.cpp.o -c /home/artem99/3Artem99/workspace/projects/lab05/banking/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/banking.dir/banking/Account.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/banking.dir/banking/Account.cpp.o -MF CMakeFiles/banking.dir/banking/Account.cpp.o.d -o CMakeFiles/banking.dir/banking/Account.cpp.o -c /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.cpp
 
 CMakeFiles/banking.dir/banking/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/banking.dir/banking/Account.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem99/3Artem99/workspace/projects/lab05/banking/Account.cpp > CMakeFiles/banking.dir/banking/Account.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.cpp > CMakeFiles/banking.dir/banking/Account.cpp.i
 
 CMakeFiles/banking.dir/banking/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/banking.dir/banking/Account.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem99/3Artem99/workspace/projects/lab05/banking/Account.cpp -o CMakeFiles/banking.dir/banking/Account.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.cpp -o CMakeFiles/banking.dir/banking/Account.cpp.s
 
 # Object files for target banking
 banking_OBJECTS = \
@@ -109,7 +109,7 @@ libbanking.a: CMakeFiles/banking.dir/banking/Transaction.cpp.o
 libbanking.a: CMakeFiles/banking.dir/banking/Account.cpp.o
 libbanking.a: CMakeFiles/banking.dir/build.make
 libbanking.a: CMakeFiles/banking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbanking.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbanking.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/banking.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/banking.dir/link.txt --verbose=$(VERBOSE)
 
@@ -122,6 +122,6 @@ CMakeFiles/banking.dir/clean:
 .PHONY : CMakeFiles/banking.dir/clean
 
 CMakeFiles/banking.dir/depend:
-	cd /home/artem99/3Artem99/workspace/projects/lab05/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artem99/3Artem99/workspace/projects/lab05 /home/artem99/3Artem99/workspace/projects/lab05 /home/artem99/3Artem99/workspace/projects/lab05/build /home/artem99/3Artem99/workspace/projects/lab05/build /home/artem99/3Artem99/workspace/projects/lab05/build/CMakeFiles/banking.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02 /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02 /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles/banking.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/banking.dir/depend
 

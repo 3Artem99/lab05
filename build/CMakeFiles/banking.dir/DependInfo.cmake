@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artem99/3Artem99/workspace/projects/lab05/banking/Account.cpp" "CMakeFiles/banking.dir/banking/Account.cpp.o" "gcc" "CMakeFiles/banking.dir/banking/Account.cpp.o.d"
-  "/home/artem99/3Artem99/workspace/projects/lab05/banking/Transaction.cpp" "CMakeFiles/banking.dir/banking/Transaction.cpp.o" "gcc" "CMakeFiles/banking.dir/banking/Transaction.cpp.o.d"
+  "/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.cpp" "CMakeFiles/banking.dir/banking/Account.cpp.o" "gcc" "CMakeFiles/banking.dir/banking/Account.cpp.o.d"
+  "/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.cpp" "CMakeFiles/banking.dir/banking/Transaction.cpp.o" "gcc" "CMakeFiles/banking.dir/banking/Transaction.cpp.o.d"
   )
 
 # Targets to which this target links.

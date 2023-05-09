@@ -1,7 +1,7 @@
 CMakeFiles/banking.dir/banking/Transaction.cpp.o: \
- /home/artem99/3Artem99/workspace/projects/05Dima/lab05/banking/Transaction.cpp \
+ /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.cpp \
  /usr/include/stdc-predef.h \
- /home/artem99/3Artem99/workspace/projects/05Dima/lab05/banking/Transaction.h \
+ /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Transaction.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -147,4 +147,4 @@ CMakeFiles/banking.dir/banking/Transaction.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/artem99/3Artem99/workspace/projects/05Dima/lab05/banking/Account.h
+ /home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/banking/Account.h
