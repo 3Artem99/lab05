@@ -1,3 +1,0 @@
-/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles/banking.dir
-/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles/edit_cache.dir
-/home/artem99/3Artem99/workspace/projects/lab05_fix/lab02/build/CMakeFiles/rebuild_cache.dir
