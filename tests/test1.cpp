@@ -1,35 +1,28 @@
-#include <Account.h> 
-#include <gtest/gtest.h> 
-#include <gmock/gmock.h> 
+cmake_minimum_required(VERSION 3.4)
 
-using namespace testing;
 
-class MockAccount : public Account {
- public:
-  MOCK_METHOD0(GetBalance, int());
-  MOCK_METHOD1(ChangeBalance, void(int));
-  MOCK_METHOD0(Lock, void());
-  MOCK_METHOD0(Unlock, void());
-};
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-TEST(Account, Banking){
-  MockAccount test;
-  EXPECT_CALL(test, GetBalance())
-      .WillOnce(Return(0));
-  EXPECT_CALL(test, ChangeBalance(100))
-      .WillOnce(Throw(std::runtime_error("Account is locked")));
-  EXPECT_CALL(test, Lock());
-  EXPECT_CALL(test, ChangeBalance(100));
-  EXPECT_CALL(test, GetBalance())
-      .WillOnce(Return(100));
-  EXPECT_CALL(test, Lock())
-      .WillOnce(Throw(std::runtime_error("Account is already locked")));
-  EXPECT_CALL(test, Unlock());
-  EXPECT_CALL(test, ChangeBalance(100))
-      .WillOnce(Throw(std::runtime_error("Account is locked")));
+option(BUILD_TESTS "Build tests" OFF)
 
-  test.Lock();
-  ASSERT_THROW(test.ChangeBalance(100), std::runtime_error);
-  test.Unlock();
-  ASSERT_THROW(test.ChangeBalance(100), std::runtime_error);
-}
+if(BUILD_TESTS)
+  add_compile_options(--coverage)
+endif()
+
+project (banking)
+
+add_library(banking STATIC ${CMAKE_CURRENT_SOURCE_DIR}/banking/Transaction.cpp ${CMAKE_CURRENT_SOURCE_DIR}/banking/Account.cpp)
+target_include_directories(banking PUBLIC
+${CMAKE_CURRENT_SOURCE_DIR}/banking )
+
+target_link_libraries(banking gcov)
+
+if(BUILD_TESTS)
+  enable_testing()
+  add_subdirectory(third-party/gtest)
+  file(GLOB BANKING_TEST_SOURCES tests/*.cpp)
+  add_executable(check ${BANKING_TEST_SOURCES})
+  target_link_libraries(check banking gtest_main)
+  add_test(NAME check COMMAND check)
+endif()
