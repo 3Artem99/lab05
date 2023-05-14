@@ -9,11 +9,11 @@ if(BUILD_TESTS)
   add_compile_options(--coverage)
 
   # Add Google Test and Google Mock subdirectories
-  add_subdirectory(third-party/googletest)
+  add_subdirectory(third-party/gtest)
   add_subdirectory(third-party/googlemock)
 
   # Set include directories for Google Test and Google Mock
-  include_directories(third-party/googletest/include)
+  include_directories(third-party/gtest/include)
   include_directories(third-party/googlemock/include)
 
   # Add banking library
