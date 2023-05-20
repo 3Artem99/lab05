@@ -1,6 +1,6 @@
 #include <Account.h>
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
+
 
 class MockAccount : public Account {
 public:
@@ -10,18 +10,18 @@ MOCK_METHOD(void, Lock, ());
 MOCK_METHOD(void, Unlock, ());
 };
 
-MockAccount mock_account;
+MockAccount mock_account(0,0);
 
 TEST(Account, Banking){
 // Настраиваем Mock объект
 EXPECT_CALL(mock_account, GetBalance())
-.WillOnce(Return(0));
+.WillOnce(testing::Return(0));
 EXPECT_CALL(mock_account, ChangeBalance(100))
-.WillOnce(Throw(std::runtime_error("Account is locked")));
+.WillOnce(testing::Throw(std::runtime_error("Account is locked")));
 EXPECT_CALL(mock_account, Lock());
 EXPECT_CALL(mock_account, Unlock());
 EXPECT_CALL(mock_account, ChangeBalance(100))
-.WillOnce(Return());
+.WillOnce(testing::Return());
 
 // Используем Mock объект вместо реального объекта
 Account* account = &mock_account;
