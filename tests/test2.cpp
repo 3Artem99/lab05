@@ -1,7 +1,6 @@
 #include <Account.h>
 #include <Transaction.h>
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
 
 // создаем mock-объект класса Account
 class MockAccount : public Account {
@@ -16,7 +15,7 @@ public:
 class TransactionTest : public ::testing::Test {
 protected:
   // создаем mock-объекты и тестируемый объект
-  MockAccount Alice, Bob;
+  MockAccount Alice(0,5000), Bob(0,5000);
   Transaction test_tran;
 
   // инициализируем mock-объекты
